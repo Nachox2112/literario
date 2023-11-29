@@ -264,7 +264,7 @@ hr{
 .parallax-inner .content{
     color: black;
     text-align: center;
-    width: 800px;
+    width: 100%;
     font-size: 1rem;
     margin: 0;
     padding: 0;
