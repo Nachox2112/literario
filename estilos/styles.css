@@ -4,6 +4,7 @@
 
  *{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
  }
 
  
@@ -356,7 +357,7 @@ p {
     }
 
     .texto-imagen-container img{
-        width: 200px;
+        max-width: 100%;
     }
 
 }
