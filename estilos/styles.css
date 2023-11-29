@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
  *{
     font-family: 'Roboto', sans-serif;
@@ -35,9 +35,13 @@ hr{
     margin-left: 70px;
     margin-right: 70px;
     background-color: #fff;
-    
-    
 }
+
+.home .rawpaper{
+    width: 800px;
+    z-index: 1;
+}
+
 
 .home .content span{
     font-size: 4rem;
@@ -51,10 +55,7 @@ hr{
     
 }
 .home .greet {
-    background-image: url(../imagenes/rawpaper.png);
-    background-size: cover;
-    background-position: center top;
-    background-color: transparent;
+    
     margin-left: 170px;
     margin-right: 170px;
     margin-top: 0;
@@ -68,17 +69,26 @@ hr{
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 220vh;
+    min-height: 50vh;
     
 }
 
-.home .salute{
-    transform: translateY(-8rem);
-    font-size: 20px;
+.home .msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+    
 }
 
+
+
 .home .greet .salute{
-    font-size: 1rem;
+    transform: translateY(-8rem);
+    font-size: 20px;
+    z-index: 2;
 }
 
 
@@ -110,6 +120,12 @@ hr{
   transform: translate(-50%, -50%);
   animation: tracking-in-expand 5s ease-out both;
 
+}
+
+.home .profes{
+color:  #464752 ;
+    
+    
 }
 
  .proyecto-literario {
@@ -315,7 +331,36 @@ p {
     margin-left: 300px;
     margin-right: 300px;
 }
+.home .container{
+    height: 100%;
+}
 
+
+
+.greet {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170vh; /* Ajusta según tus necesidades o el contenido real de .greet */
+  }
+  
+  .rawpaper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%); /* Centra la imagen */
+    z-index: 1;
+  }
+  .lottie,
+  .salute,
+  .logo {
+    position: relative; /* O ajusta según sea necesario */
+    z-index: 2; /* Coloca los elementos sobre la imagen */
+  }
 /* Añade estilos adicionales según tus necesidades */
 
 
@@ -345,6 +390,22 @@ p {
         margin-right: 0;
         padding-top: 10rem;
         margin-bottom: 0;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+
+    .home .greet .msg h2 {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-left: 9rem;
+        padding-right: 9rem;
+        
         
     }
 
@@ -363,5 +424,12 @@ p {
     .texto-imagen-container img{
         max-width: 100%;
     }
+    
+    .container{
+        max-height: 100%;
+    }
 
+    .greet .rawpaper{
+        width: 80%;
+    }
 }
