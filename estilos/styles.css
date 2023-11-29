@@ -352,6 +352,10 @@ p {
         padding: 10px; /* Ajusta según sea necesario para el espacio interior */
     }
 
+    .parallax-inner .content{
+        width: 100%;
+    }
+
     .parallax-inner .content p {
         font-size: 20px;
     }
