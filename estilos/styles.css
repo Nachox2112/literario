@@ -5,6 +5,7 @@
  *{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    
  }
 
  
@@ -271,6 +272,7 @@ font-size: 40px;
     color: #fff;
     text-align: center;
     height: auto;
+    overflow: hidden;
     
 }
 
