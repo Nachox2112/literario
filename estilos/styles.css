@@ -414,6 +414,10 @@ p {
         
     }
 
+    .parallax{
+      overflow: hidden;
+    }
+
     .proyecto-literario{
       overflow: hidden;
     }
