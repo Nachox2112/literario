@@ -414,6 +414,10 @@ p {
         
     }
 
+    .home .rawpaper{
+      width: 400px;
+    }
+
     .parallax{
       overflow: hidden;
     }
