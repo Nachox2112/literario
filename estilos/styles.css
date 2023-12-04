@@ -11,7 +11,7 @@
     
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  
 }
  
 
@@ -21,6 +21,7 @@
       width: 100%;
       padding-left: 15px;
       padding-right: 15px;
+      
    
     
 }
@@ -135,7 +136,7 @@ color:  #464752 ;
 text-align: right;
 font-size: 40px;
     
-    
+
 }
 
  .proyecto-literario {
@@ -150,6 +151,7 @@ font-size: 40px;
   animation: cambioFondo 20s linear infinite, kenburns-top 20s linear infinite;
   transition: background-image 15s ease;  
   z-index: 1;
+  overflow-x: hidden;
   overflow: hidden;
 }
 
@@ -195,8 +197,8 @@ font-size: 40px;
               transform-origin: 50% 16%;
     }
     100% {
-      -webkit-transform: scale(1.25) translateY(-15px);
-              transform: scale(1.25) translateY(-15px);
+      -webkit-transform: scale(1.02) translateY(-15px);
+              transform: scale(1.02) translateY(-15px);
       -webkit-transform-origin: top;
               transform-origin: top;
     }
@@ -209,8 +211,8 @@ font-size: 40px;
               transform-origin: 50% 16%;
     }
     100% {
-      -webkit-transform: scale(1.25) translateY(-15px);
-              transform: scale(1.25) translateY(-15px);
+      -webkit-transform: scale(1.02) translateY(-15px);
+              transform: scale(1.02) translateY(-15px);
       -webkit-transform-origin: top;
               transform-origin: top;
     }
@@ -272,33 +274,226 @@ font-size: 40px;
     background-size: cover;
     background-position: center;
     height: auto;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     text-align: center;
-    height: auto;
-    overflow: hidden;
+  
     
+}
+.parallax2 {
+  background-image: url('../imagenes/land2.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax3 {
+  background-image: url('../imagenes/thiago.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax4 {
+  background-image: url('../imagenes/valen.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax5 {
+  background-image: url('../imagenes/jaz.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax6 {
+  background-image: url('../imagenes/santi.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax7 {
+  background-image: url('../imagenes/feli.jpeg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax8 {
+  background-image: url('../imagenes/kiaram.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax9 {
+  background-image: url('../imagenes/isa.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax10 {
+  background-image: url('../imagenes/martina.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax11 {
+  background-image: url('../imagenes/gabi.png');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax12{
+  background-image: url('../imagenes/marcos.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax13{
+  background-image: url('../imagenes/agus.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
 }
 
 .parallax-inner {
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 20rem;
     padding: 20px;
-    width: auto;
+    width: 100%;
     z-index: 1;
 }
 
 .parallax-inner .content{
     color: black;
     text-align: center;
-    width: 100%;
+    width: 60%;
     font-size: 1rem;
     margin: 0;
     padding: 0;
     line-height: 1.5;
     padding-bottom: 10px;
+    padding-top: 7rem ;
 }
 
 
@@ -313,6 +508,7 @@ font-size: 40px;
     padding-top: 15rem;
     text-align: center;
     border-radius: 5px;
+  
 }
 
 h1 {
@@ -403,9 +599,13 @@ p {
         margin-bottom: 0;
         background-size: 100%;
         background-repeat: no-repeat;
+        overflow-x: hidden;
         
         
         
+    }
+    .home .greet .lottie{
+      width: 300px;
     }
 
     .home .greet .msg h2 {
@@ -421,11 +621,12 @@ p {
     }
 
     .home .rawpaper{
-      width: 400px;
+      width: 300px;
+      
     }
 
     .parallax{
-      overflow: hidden;
+      overflow-x: hidden;
     }
 
     .proyecto-literario{
@@ -455,4 +656,34 @@ p {
     .greet .rawpaper{
         width: 80%;
     }
+
+    @-webkit-keyframes kenburns-top {
+      0% {
+        -webkit-transform: scale(1) translateY(0);
+                transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+                transform-origin: 50% 16%;
+      }
+      100% {
+        -webkit-transform: scale(1) translateY(-15px);
+                transform: scale(1) translateY(-15px);
+        -webkit-transform-origin: top;
+                transform-origin: top;
+      }
+    }
+    @keyframes kenburns-top {
+      0% {
+        -webkit-transform: scale(1) translateY(0);
+                transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+                transform-origin: 50% 16%;
+      }
+      100% {
+        -webkit-transform: scale(1) translateY(-15px);
+                transform: scale(1) translateY(-15px);
+        -webkit-transform-origin: top;
+                transform-origin: top;
+      }
+    }
+
 }
