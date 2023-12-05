@@ -41,7 +41,7 @@ hr{
     margin: 20px;
 }
 
-.home .content{
+.home .contentinit{
     line-height: 40px;
     text-align: left;
     margin-left: 5%;
@@ -55,13 +55,16 @@ hr{
 }
 
 
-.home .content span{
+.home .contentinit span{
     font-size: 4rem;
 }
 
-.home .content h2{
-    text-decoration: underline;
+.home .contentinit h2{
+    
     text-align: center;
+    margin-top: 20rem;
+    margin-bottom: 25rem;
+    line-height: 5rem;
     
     
     
@@ -112,6 +115,16 @@ hr{
    height: auto;
 }
 
+.contentinit {
+  opacity: 0; /* Inicialmente oculto */
+  transform: translateX(-100%); /* Inicialmente fuera de la pantalla a la izquierda */
+  transition: opacity 2s ease, transform 1s ease;
+}
+
+.contentinit.show {
+  opacity: 1;
+  transform: translateX(0); /* Mostrar deslizándose desde la izquierda */
+}
 
 
  
@@ -299,7 +312,7 @@ font-size: 40px;
 
   
 }
-.parallax3 {
+.parallax14 {
   background-image: url('../imagenes/thiago.jpg');
   background-color: transparent;
   background-attachment: fixed;
@@ -475,10 +488,67 @@ font-size: 40px;
 
   
 }
+.parallax15{
+  background-image: url('../imagenes/benicio.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
 
-.banner{
-  height: 300px;
+  
 }
+.parallax16{
+  background-image: url('../imagenes/nachoc.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax17{
+  background-image: url('../imagenes/nachoc2.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+
+.banner {
+  height: 300px;
+  text-align: center;
+  font-size: 5rem;
+  background-color: rgba(141, 40, 65, 0.6); /* Fondo con efecto de vidrio */
+  backdrop-filter: blur(20px); /* Difuminar el fondo para el efecto de vidrio */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ 
 
 .parallax-inner {
     background-color: rgba(0, 0, 0, 0.5);
@@ -489,16 +559,40 @@ font-size: 40px;
 }
 
 .parallax-inner .content{
-    color: black;
-    text-align: center;
-    width: 60%;
-    font-size: 1rem;
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
-    padding-bottom: 10px;
-    padding-top: 7rem ;
+  margin: 2em auto;
+  overflow: hidden;
+  padding: 1em 1.5em;
+  position: relative;
+  color: black;
+  text-align: center;
+  width: 60%;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  padding-bottom: 10px;
+  padding-top: 7rem;
+  
 }
+
+.parallax-inner .content:before {
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+  background: none repeat scroll 0 0  rgba(255, 255, 255, 0)
+; /* color esquina */
+  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0)   #cb9963 
+  #d5af87
+; /* color de borde */
+  border-style: solid;
+  border-width: 0 36px 36px 0;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  
+}
+
 
 
 
@@ -595,6 +689,10 @@ p {
 @media only screen and (max-width: 480px) {
 
     
+
+  .home .content h2{
+    line-height: 5rem;
+  }
 
     .home .greet {
         margin-left: 0;
