@@ -553,6 +553,54 @@ font-size: 40px;
 
   
 }
+.parallax18{
+  background-image: url('../imagenes/kiaraA.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax19{
+  background-image: url('../imagenes/juana.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax20{
+  background-image: url('../imagenes/juana.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
 
 .bg {
   background: url(https://i.ibb.co/87GbbFP/2799006.jpg) no-repeat;
@@ -709,7 +757,7 @@ font-size: 40px;
 }
 .modal-content span{
   line-height: 5rem;
-  text-align: center;
+  margin-left: 500px;
 }
 
 
@@ -717,7 +765,7 @@ font-size: 40px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .close {
@@ -863,7 +911,7 @@ p {
   margin-top: 10rem;
   display: grid;
 grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
+grid-template-rows: repeat(10, 1fr);
 grid-column-gap: 3px;
 grid-row-gap: 3px;
 
@@ -883,6 +931,22 @@ grid-row-gap: 3px;
 .div13 { grid-area: 5 / 2 / 6 / 3; }
 .div14 { grid-area: 5 / 3 / 6 / 4; }
 .div15 { grid-area: 5 / 4 / 6 / 5; } 
+.div16 { grid-area: 6/ 2 / 7 / 3; }
+.div17 { grid-area: 6 / 3 / 7 / 4; }
+.div18 { grid-area: 6 / 4 / 7 / 5; }
+.div19 { grid-area: 7 / 2 / 8 / 3; }
+.div20 { grid-area: 7 / 3 / 8 / 4; }
+.div21 { grid-area: 7 / 4 / 8 / 5; }
+.div22 { grid-area: 8 / 2 / 9 / 3; }
+.div23 { grid-area: 8 / 3 / 9 / 4; }
+.div24 { grid-area: 8 / 4 / 9 / 5; }
+.div25 { grid-area: 9 / 2 / 10 / 3; }
+.div26 { grid-area: 9 / 3 / 10 / 4; }
+.div27 { grid-area: 9 / 4 / 10 / 5; }
+.div28 { grid-area: 10 / 2 / 11 / 3; }
+.div29 { grid-area: 10 / 3 / 11 / 4; }
+.div30 { grid-area: 10 / 4 / 11 / 5; } 
+
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -920,8 +984,9 @@ grid-row-gap: 3px;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: #000;
+  background-image: url(../imagenes/ccchaos.svg);
+  background-color:  #212f3c ;
+  color: #FFF;
   transform: rotateY(180deg);
   text-align: center;
   top: 0;
