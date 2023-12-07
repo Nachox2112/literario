@@ -602,6 +602,89 @@ font-size: 40px;
   
 }
 
+.parallax21{
+  background-image: url('../imagenes/juana.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+.parallax22{
+  background-image: url('../imagenes/juana.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+
+.parallax23{
+  background-image: url('../imagenes/juana.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+
+.parallax24{
+  background-image: url('../imagenes/juana.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
+
+.parallax25{
+  background-image: url('../imagenes/juana.jpg');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  
+}
 .bg {
   background: url(https://i.ibb.co/87GbbFP/2799006.jpg) no-repeat;
   background-size: cover;
@@ -911,7 +994,7 @@ p {
   margin-top: 10rem;
   display: grid;
 grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(12, 1fr);
+grid-template-rows: repeat(9, 1fr);
 grid-column-gap: 3px;
 grid-row-gap: 3px;
 
