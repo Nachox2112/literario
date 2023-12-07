@@ -911,7 +911,7 @@ p {
   margin-top: 10rem;
   display: grid;
 grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(10, 1fr);
+grid-template-rows: repeat(12, 1fr);
 grid-column-gap: 3px;
 grid-row-gap: 3px;
 
@@ -980,6 +980,10 @@ grid-row-gap: 3px;
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  border-radius: 10px;
+}
+
+.flip-card-front img{
   border-radius: 10px;
 }
 
